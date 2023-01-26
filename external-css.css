@@ -1,0 +1,50 @@
+/* CSS LAYOUT */
+
+/* Background */
+
+.page {width:80%; margin:auto; padding:0;}
+
+/* Navigation */
+
+ul {list-style-type:none; padding:0; margin:0;}
+
+li a {background-color:white; padding:15px 30.6px; font-family:verdana; color:#013220; text-align:center; text-decoration:none; display:inline-block; float:left;}
+
+li a:hover, a:active {background-color:#013220; color:white;}
+
+
+/* Container */
+
+.container {background-color:#013220;}
+
+/* Main */
+
+main {background-color:#013220; font-family:verdana; font-size:15px; color:white; text-align:center; padding:60px; margin:10px;}
+
+main a {color:#FFDB58; text-decoration:none;}
+
+main a:active {color:#FFDB58; text-decoration:none;}
+
+.column {float:left; width:45%; padding:14px;}
+
+.row::after {content:""; clear:both; display:table;}
+
+/* Second */
+
+.second {float:left; width:49%; border:2px; background-color:#013220; margin:0;}
+
+.second {text-align:center; font-family:verdana; color:white; padding:27.5px;}
+
+/* Third */
+
+.third {float:right; width:40%; background-color:#013220; margin:0;}
+
+.third {font-family:verdana; font-size:13px; color:white; padding:25px;}
+
+.third a {color:white;}
+
+/* Footer */
+
+.main-footer {text-align:center; font-family:verdana; font-size:14px; color:#013220; padding:14px 24px; clear:both;}
+
+.main-footer a {color:#013220;}
